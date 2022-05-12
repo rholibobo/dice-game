@@ -1,0 +1,120 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: -13px;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+  position: relative;
+  top: 25px;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+#btn{
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right,green,red,hotpink,violet,gold,green);
+  border-image-slice: 1%;
+  cursor: pointer;
+  
+  
+
+}
+.score-board{
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 80px;
+  border-radius: 15px;
+  margin: auto;
+  position: relative;
+  top: -20px;
+  
+  
+
+}
+.score-board h3{
+  color: #4ECCA3;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+.final-scores{
+  /* background-color: blue; */
+  width: 100%;
+  position: absolute;
+  top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.scores1, .scores2{
+  /* background-color: blue; */
+  display: block;
+  position: relative;
+}
+
+.one, .two{
+  width: 100%;
+  font-size: 1.1rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.one1, .two1{
+  background-color: red;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 0 10px;
+  position: absolute;
+  top: 28px;
+  right: 5px;
+  border-radius: 5px;
+}
